@@ -1,0 +1,136 @@
+
+
+#content
+{
+	background-color: gainsboro;
+	width: 70%;
+	position: absolute; /* postulat de départ */
+ 		 top: 80%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+	border: 5px solid black;
+	margin-bottom: 40px;
+	height: 100%;
+	
+	
+}
+
+
+
+html, body {
+	margin:0px;
+	padding:0px;
+	background-color: #323847;
+}
+
+
+
+
+/*
+###################################################
+###################################################
+################            #######################
+################ BACKGROUND #######################
+################            #######################
+###################################################
+###################################################
+*/
+
+html, body {
+	margin:0px;
+	padding:0px;
+	background: url(../image/background.jpg);
+	background-size: 100%;
+}
+
+
+
+
+/*
+###################################################
+###################################################
+################            #######################
+################ NAVIGATION #######################
+################            #######################
+###################################################
+###################################################
+*/
+
+
+
+.header {
+	
+  background-color: #003366;
+  padding: 1px;
+  text-align: center;
+  width: 100%;
+	z-index: 9999;
+	padding-bottom: 0px;
+	
+}
+
+.header img{
+	z-index: 9999;
+	width: 15%;
+}
+#navbar ul{
+	z-index: 9999;
+	 text-align: center;
+}
+ 
+
+#navbar li {
+	z-index: 9999;
+	 line-height: 40px;
+  height: 40px;
+	font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+    display: inline-block;
+    margin-right: -4px;
+	  color: whitesmoke;
+  }
+
+#navbar {
+	border-bottom: black solid 2px;
+	z-index: 9999;
+  overflow: hidden;
+  background-color: #003366;
+}
+
+#navbar a {
+	z-index: 9999;
+  color: whitesmoke;
+  cursor:whitesmoke default;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+	z-index: 9999;
+color:#336699;
+}
+
+#content {
+  margin: 16px;
+margin-top: 50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 18px;
+}
+
+ 
+@media screen and (min-width: 600px) {
+  #navbar li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+}
