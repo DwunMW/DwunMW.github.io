@@ -171,9 +171,11 @@ header {
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: 'Raleway', sans-serif;
     text-decoration: underline;
     text-transform: capitalize;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /***************************************
