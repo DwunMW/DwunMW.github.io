@@ -114,7 +114,8 @@ header {
 
 .container {
 	display: inline-block;
-	margin-top: 3%;
+	margin-top: 5%;
+	margin-left: 5%;
     position: relative;
     width: 15%;
 }
@@ -166,7 +167,7 @@ header {
 	}
 }
 .testzz {
-	margin: 50px;
+	margin: 40px;
     text-align: center;
     color: white;
     font-size: 30px;
