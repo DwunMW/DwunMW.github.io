@@ -87,8 +87,7 @@ header {
 
 .imglogo{
   	display: block;
-  	  	margin-bottom: 2%;
-  	margin-top: 1%;
+  	  	margin: 1%;
   	padding: 0;
   	text-align: center;
 }
@@ -168,7 +167,7 @@ header {
 	}
 }
 .testzz {
-	margin: 60px;
+	margin: 3%;
     text-align: center;
     color: white;
     font-size: 30px;
