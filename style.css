@@ -186,6 +186,15 @@ header {
 **************FOOTER********************
 ***************************************/
 
+.ytbPlaylist {
+		display: inline;
+		margin: 10%;
+		
+}
+#glossaire {
+text-align: center;
+}
+
 body{
 	margin: 0;
 	padding: 0;
