@@ -184,9 +184,9 @@ header {
 
 .cate
 {
-	  color: white;
+	  color: grey;
   font-family: 'Mina', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: capitalize;
   text-decoration: underline;
   margin-bottom: 1%;
