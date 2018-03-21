@@ -149,14 +149,19 @@ header {
 .container:hover .middle {
   opacity: 1;
 }
-
 .text {
  border-radius: 11%;
-  background-color: black;
+ 	margin-top: 10%;
   color: white;
   font-family: 'Mina', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   padding: 8px 16px;
+}
+
+.ytbp
+{
+	height: 90%;
+	width: 90%;
 }
 
 @media screen and (max-width: 600px) {
@@ -195,16 +200,16 @@ header {
 /***************************************
 **************FOOTER********************
 ***************************************/
-
 .ytbPlaylist {
 	margin-left: 3%;
 	margin-right: 3%;
 display: inline-block;		
+height: 25%;
 }
 #glossaire {
-	
 text-align: center;
 }
+
 
 body{
 	margin: 0;
@@ -228,7 +233,7 @@ html{
 
 footer {
 	width: 7%;
-	height: 135%;
+	height: 100%;
 	border-right: solid white 3px;
 	background-color: #720000;
 	position: absolute;
